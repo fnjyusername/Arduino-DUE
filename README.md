@@ -1,4 +1,6 @@
 # Arduino-DUE
 
-# TIMER
+SPECS: AT91SAM3X8E ATMEL CHIPSET, 32bit, 84Mhz
+
+
 
