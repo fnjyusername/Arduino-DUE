@@ -18,21 +18,17 @@ Instance | TC  | Channel| External Clock Input | I/O Line A | I/O Line B
  T8      | TC2 |   2    |         TCLK8        |   TIOA8    |    TIOB8
 
 
-
-Clock Input  |    Port Pin      |      Pin on
- (TCLKx)     |      Chip        | Arduino Due Board
--------------|------------------|-----------------------
- TCLK0       |    PB 26         |   Pin 22 (Digital)
- TCLK1       |    PA  4         |   Pin  5 (Analog In)
- TCLK2       |    PA  7         |   Pin 31 (Digital )
- TCLK3       |    PA 22         |   Pin  5 (Analog In)
- TCLK4       |    PA 23         |   Pin  2 (Analog In)
- TCLK5       |    PB 16         |   DAC1
- TCLK6       |    PC 27         |        /
- TCLK7       |    PC 30         |   LED "RX"
- TCLK8       |    PD  9         |   Pin 30 (Digital)
-
-
-
+(TCLKx)
+Clock Input | Port Pin of µC | Pin on Arduino Due Board
+------------|------------|-----------------------------
+TCLK0       |    PB 26   |   Digital Pin 22
+TCLK1       |    PA  4   |      Analog In 5
+TCLK2       |    PA  7   |   Digital Pin 31
+TCLK3       |    PA 22   |      Analog In 3
+TCLK4       |    PA 23   |      Analog In 2
+TCLK5       |    PB 16   |             DAC1
+TCLK6       |    PC 27   |        /
+TCLK7       |    PC 30   |         LED "RX"
+TCLK8       |    PD  9   |   Digital Pin 30
 
 
