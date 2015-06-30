@@ -3,8 +3,7 @@
 SPECS: AT91SAM3X8E ATMEL CHIPSET, 32bit, 84Mhz
 
 ## TIMER BLOCK
-The AT91SAM3X8E has nine (9) general-purpose 32-bit timers/counters organized in three blocks i.e. TC0, TC1, TC3.
-Each Block has 3 channels i.e. 0, 1, 2 and each channel of each block has input and output lines.
+The AT91SAM3X8E has nine (9) general-purpose 32-bit timers/counters i.e. TCLK0, TCLK1, TCLK2, ...TCLK8. These timers/counter is organized in three blocks i.e. TC0, TC1, TC3. Each Block has 3 channels i.e. 0, 1, 2 and each channel of each block has two (2) input and output lines labelled as line A and B.
 
 Instance | TC  | Channel| External Clock Input | I/O Line A | I/O Line B
 ---------|-----|--------|----------------------|------------|-----------
@@ -18,6 +17,19 @@ Instance | TC  | Channel| External Clock Input | I/O Line A | I/O Line B
  T7      | TC2 |   1    |         TCLK7        |   TIOA7    |    TIOB7
  T8      | TC2 |   2    |         TCLK8        |   TIOA8    |    TIOB8
 
+**External clock inputs** are routed to pins on the Arduino Due board
+
+Clock Input | Port Pin of Chip | Pin on Arduino Due Board
+------------|------------------|-----------------------------
+TCLK0       |    PB 26         |   Pin 22 (Digital)
+TCLK1       |    PA  4         |   Pin  5 (Analog In)
+TCLK2       |    PA  7         |   Pin 31 (Digital )
+TCLK3       |    PA 22         |   Pin  5 (Analog In)
+TCLK4       |    PA 23         |   Pin  2 (Analog In)
+TCLK5       |    PB 16         |   DAC1
+TCLK6       |    PC 27         |        /
+TCLK7       |    PC 30         |   LED "RX"
+TCLK8       |    PD  9         |   Pin 30 (Digital)
 
 
 
