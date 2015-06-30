@@ -32,3 +32,14 @@ TCLK7       |    PC 30         |         LED "RX"
 TCLK8       |    PD  9         |   Digital Pin 30
 
 
+I/O Line B|Port Pin of µC| Pin on Arduino Due Board
+----------|--------------|------------------------------------------
+TIOB0     |     PB 27    |   Pin 13 (Digital)
+TIOB1     |     PA  3    |   Pin 6  (Digital)
+TIOB2     |     PA  6    |   Pin 4  (Analog)
+TIOB3     |     PE 10    |   /
+TIOB4     |     PE 12    |   /
+TIOB5     |     PE 14    |   /
+TIOB6     |     PC 26    |   Pin 4   (Digital)  also connected to PA29
+TIOB7     |     PC 29    |   Pin 10  (Digital)  also connected to PA28
+TIOB8     |     PD  8    |   Pin 12
