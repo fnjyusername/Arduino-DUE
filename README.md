@@ -54,3 +54,5 @@ TIMER_CLOCK2 | MCK /   8
 TIMER_CLOCK3 | MCK /  32
 TIMER_CLOCK4 | MCK / 128
 TIMER_CLOCK5 | SLCK
+
+where: MCK=84Mhz and 2, 8, 32, 128 are clock divider. 
