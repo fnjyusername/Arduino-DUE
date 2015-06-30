@@ -43,3 +43,14 @@ TIOB5     |     PE 14    |   /
 TIOB6     |     PC 26    |   Pin 4   (Digital)  also connected to PA29
 TIOB7     |     PC 29    |   Pin 10  (Digital)  also connected to PA28
 TIOB8     |     PD  8    |   Pin 12
+
+
+#### TC Clock Source Selection
+
+Name         | Definition
+-------------|-----------
+TIMER_CLOCK1 | MCK /   2
+TIMER_CLOCK2 | MCK /   8
+TIMER_CLOCK3 | MCK /  32
+TIMER_CLOCK4 | MCK / 128
+TIMER_CLOCK5 | SLCK
