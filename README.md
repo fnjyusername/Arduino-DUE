@@ -17,6 +17,7 @@ Instance | TC  | Channel| External Clock Input | I/O Line A | I/O Line B
  T7      | TC2 |   1    |         TCLK7        |   TIOA7    |    TIOB7
  T8      | TC2 |   2    |         TCLK8        |   TIOA8    |    TIOB8
 
+Each Clock is routed to corresponding pin on the Arduino
 
 Clock Input | Port Pin of Chip | Pin on DUE Board
 ------------|------------------|-----------------------------
