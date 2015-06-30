@@ -18,7 +18,7 @@ Instance | TC  | Channel| External Clock Input | I/O Line A | I/O Line B
  T8      | TC2 |   2    |         TCLK8        |   TIOA8    |    TIOB8
 
 
-Clock Input | Port Pin of Chip | Pin on Arduino Due Board
+Clock Input | Port Pin of Chip | Pin on DUE Board
 ------------|------------------|-----------------------------
 TCLK0       |    PB 26         |   Digital Pin 22
 TCLK1       |    PA  4         |      Analog In 5
